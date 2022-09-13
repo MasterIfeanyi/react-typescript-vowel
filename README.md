@@ -69,6 +69,10 @@ npm ERR! A complete log of this run can be found in:
 
 **solution**
 
+Go to `C:\Users\{username}\` and add this command
+
+`npm config set registry http://registry.npmjs.org/`
+
 I found a solution on stackoverflow [here](https://stackoverflow.com/a/68870880/17171424)
 
 #### 4. VS code error
