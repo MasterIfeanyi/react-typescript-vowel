@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Issues
 
 
-**1. Bootstrap**
+#### 1. Bootstrap
 
 I ran into an issue with `bootstrap v5.1.3`, here is the error message
 
@@ -36,7 +36,7 @@ I found a solution on stackoverflow [here](https://stackoverflow.com/a/72980092/
 A github discussion [here](https://github.com/twbs/bootstrap/issues/36259#issuecomment-1119095459)
 
 
-**2. writing tests**
+#### 2. writing tests
 
 I wanted to simulate user typing on input with `userEvent.change`
 
@@ -48,7 +48,7 @@ instead of `change` use `userEvent.type`
 [stackoverflow](https://stackoverflow.com/a/72124281/17171424)
 
 
-**3. npm errorConn**
+#### 3. npm errorConn
 
 I was not able to use `creact-reacta-app` to initializa a react project
 
@@ -70,3 +70,13 @@ npm ERR! A complete log of this run can be found in:
 **solution**
 
 I found a solution on stackoverflow [here](https://stackoverflow.com/a/68870880/17171424)
+
+#### 4. VS code error
+
+I got this error from VS code 
+
+``File node_modules/@types/react/jsx-runtime.d.ts' is not a module.``
+
+**solution**
+
+I found a solution on stackoverflow [here](https://stackoverflow.com/a/73284349/17171424)
