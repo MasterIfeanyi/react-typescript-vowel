@@ -50,7 +50,7 @@ instead of `change` use `userEvent.type`
 
 #### 3. npm errorConn
 
-I was not able to use `creact-reacta-app` to initializa a react project
+I was not able to use `creact-react-app` to initialize a react project
 
 ```javascript
 npm ERR! code ECONNRESET
